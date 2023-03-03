@@ -2,8 +2,12 @@ body {
     margin: 0;
     padding: 0;
     background: #ffe;
-    font-size: 12px;
+    font-size: 22px;
     overflow: auto
+}
+
+html {
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
 }
 
 #mainDiv {
